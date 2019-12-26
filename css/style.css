@@ -1,0 +1,284 @@
+h1, h2, h3, h4, h5,
+p, ul, li{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #000;
+    background: #EAEAEA;
+    font-size: 16px;
+    font-weight: normal;
+}
+.clear{
+    clear: both;
+    width: 100%;
+}
+.section{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    /* min-width: 280px;  */
+}
+.section201 .title_name{
+    font-size: 250%;
+    margin: 40px 40px;
+    font-weight: bold;
+    color: #ff0000;
+    float: left;
+}
+.section201 .slogon{
+    width: 750px;
+    font-size: 220%;
+    margin: 42px 200px;
+    font-weight: bold;
+    color: #ff0000;
+    float: left;
+    text-align: center;
+}
+.section201 .entry{
+    width: 100px;
+    font-size: 150%;
+    margin: 42px 20px 0 0;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    position: absolute;
+}
+.section201 .name_entry{
+    width: 100px;
+    font-size: 150%;
+    margin: 42px 40px 0 0;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    float: right;
+}
+.section101{
+    position: static;
+    height: 100vh;
+    width: 15%;
+    background: #FFF;
+    float: left;
+}
+.section101 .kak_kypit{
+    margin: 200px 10px 20px 10px;
+    font-size: 110%;
+}
+.section101 .kypit{
+    width: 90px;
+    margin: 20px auto;
+}
+.section101 .kypit input{
+    width: 90px;
+    height: 30px;
+    font-size: 120%;
+}
+.section101 .sum_pocup{
+    font-size: 130%;
+    margin: 50px 0 0 20px;
+}
+.section101 .vash_address{
+    font-size: 130%;
+    margin: 50px 0 20px 30px;
+}
+.section101 .no{
+    font-size: 140%;
+    margin: 0 auto 30px 20%;
+    color: #ff0000;
+    font-weight: bold;
+}
+.section101 .no:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section101 .skritBlock{
+    display: none;
+    /* display: block; */
+}
+.section101 .lebal_address{
+    font-size: 120%;
+    margin: 10px 0 10px 40px;
+}
+.section101 .input_address{
+    font-size: 110%;
+    margin: 0 0 20px 10px;
+    width: 220px;
+    height: 25px;
+}
+.section101 .input_address:active{
+    
+}
+
+.section301{
+    margin-left: 15%;
+}
+.section301 .bloc_tovar{
+    margin: 40px;
+    background: #FFF;
+    border: 1px solid;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+.section301 .name_tovar{
+    /* margin-left: 15%; */
+    font-size: 130%;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.section301 .picture_tovar{
+    width: 250px;
+    margin-left: 25px;
+    height: 200px;
+    
+}
+.section301 .proizvoditel_tovar{
+    margin: 10px 0 10px 25px;
+}
+.section301 .volume_tovar{
+    margin: 10px 0 10px 25px;
+    float: left;
+}
+.section301 .edin_izmer_tovar{
+    margin: 10px 0 10px 5px;
+    width: 20px;
+    float: left;
+}
+.section301 .prise_tovar{
+    width: 250px;
+    font-size: 150%;
+    color: #ff0000;
+    height: 30px;
+    margin: 50px 0 10px 25px;
+    font-weight: bold;
+    /* float: left; */
+}
+.section301 .checkbox{
+   margin: 0 0 10px 250px;
+   width: 20px;  
+   height: 20px;
+   
+}
+
+.section201 .na_glavnyu{
+    width: 150px;
+    font-size: 150%;
+    margin: 42px 20px 0 0;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    position: absolute;
+}
+.bd{
+    margin: 10px 0 0 40px;
+}
+.dobavit_tovar{
+    margin: 30px 10px 10px 10%;
+    width: 400px;
+}
+.blockDobavit{
+    background: #fff200;
+    border-radius: 20px;  
+    padding: 20px;
+}
+.blockDobavit p{
+    margin-left: 20%;
+}
+.blockDobavit .formDobavit{
+    background: #c3c3c3;  
+    margin: 20px;
+}
+.blockDobavit input{
+    width: 180px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+
+
+
+.tovar{
+    width: 1100px;
+    margin: 40px auto;
+}
+.tovar .stroka_tovar{
+    display: inline-block;
+    
+    /* float: none; */
+}
+.tovar .id{
+    width: 30px;
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .name_tovar{
+    width: 150px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .proizvoditel{
+    width: 150px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .date_zacypki{
+    width: 150px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .date_polychenia{
+    width: 150px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .date_proizvodstva{
+    width: 150px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .srok_hranenia{
+    width: 100px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .ostatok{
+    width: 100px;
+    /* margin: 40px auto; */
+    float: left;
+    border: 1px solid;
+    height: 40px;
+}
+.tovar .price{
+    width: 100px;
+    /* margin: 40px auto; */
+    border: 1px solid;
+    float: left;
+    height: 40px;
+}
